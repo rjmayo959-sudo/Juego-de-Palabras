@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(248, 246, 246);
+    opacity: 1;
+}
+
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 64px;
+  color: #FFD700; /* amarillo dorado */
+  text-shadow: 2px 2px 8px hsl(234, 91%, 39%);
+}
+
+
+body {
+    background: linear-gradient(#3875be 0%, #03070c 33.33%, #4a8add 66.67%, #01080E 100%);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+body::before {
+    background-image: url("img/puzz.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.container {
+    width: 1200px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 24px;
+    border: 5px solid #181717;
+    box-shadow: 4px 4px 20px 0px rgba(50, 121, 184, 0.15);
+    background-image: url("img/patron-letras.jpg");
+    background-size: 100% 100%;
+    position: relative;
+    opacity: 0.90;
+}
+
+
+.container__contenido {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: ;
+}
+
+.container__informaciones {
+    flex: 1;
+    padding: 3rem;
+}
+
+.container__boton {
+    border-radius: 16px;
+    background: #0873f7;
+    padding: 16px 24px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 700;
+    border: none;
+    margin-top: 2rem;
+}
+
+.container__boton:disabled {
+    background: #0873f7;
+}
+
+.container__texto {
+    margin: 16px 0 16px 0;
+}
+
+.container__texto-azul {
+    color: #0467df;
+}
+
+.container__input {
+    width: 100%;
+    height: 72px;
+    border-radius: 20px;
+    border: none;
+    background-color: #0873f7;
+    border: none;
+    padding: 2rem;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+
+.container__input::placeholder {
+  color: #f5efef;                  /* Gris claro para el texto del placeholder */
+  opacity: 1;                   /* Asegura que se vea igual en todos los navegadores */
+}
+
+.container__botones {
+    display: flex;
+    gap: 3em;
+   
+}
+h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 72px;
+    padding-bottom: 4rem;
+    color: #f1e20a;
+}
+
+p,
+button {
+    font-family: 'Inter', sans-serif;
+}
+
+.texto__parrafo {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 1;
+    color: #0f0e0e;
+}
+
+.container__imagen-palabras {
+  width: 350px;
+  height: auto;
+  border-radius: 500px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.4);
+  margin-left: px;
+}
